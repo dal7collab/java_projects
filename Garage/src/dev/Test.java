@@ -16,7 +16,7 @@ public class Test {
 		Master l = new Master("Leila");
 		System.out.println(s);
 		
-		Worker[] team = new Worker[] {m,s};
+		Worker[] team = new Worker[] {m,s,l};
 		g.setTeam(team);
 		System.out.println(g);
 		System.out.println("------------------------------------------------------");
