@@ -8,7 +8,7 @@ public class Garage {
 	private Worker[] team;
 
 	public Garage() {
-		this.name = "HamsaShumBazal2000";
+		this.name = "Alufim2000";
 		this.address = new Address();
 	}
 	
