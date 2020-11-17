@@ -1,4 +1,4 @@
-package tests;
+package _tests_;
 
 import buildings.Garage;
 import enums.Education;
