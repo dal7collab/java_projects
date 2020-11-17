@@ -1,9 +1,11 @@
-package dev;
+package enums;
 
 public enum Specialization {
 	Assistance,
 	Painting,
 	Engines,
 	Finance,
-	Office
+	Sales,
+	Office,
+	Other
 }

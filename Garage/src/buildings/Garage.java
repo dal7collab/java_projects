@@ -1,6 +1,8 @@
-package dev;
+package buildings;
 
 import java.util.Arrays;
+
+import people.Worker;
 
 public class Garage {
 	private String   name;
@@ -8,7 +10,7 @@ public class Garage {
 	private Worker[] team;
 
 	public Garage() {
-		this.name = "Alufim2000";
+		this.name = "Alufot2000";
 		this.address = new Address();
 	}
 	

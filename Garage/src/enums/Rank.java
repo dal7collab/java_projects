@@ -1,4 +1,4 @@
-package dev;
+package enums;
 
 public enum Rank {
 	Junior,

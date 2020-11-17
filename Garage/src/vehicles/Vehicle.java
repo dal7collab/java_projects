@@ -1,4 +1,6 @@
-package dev;
+package vehicles;
+
+import enums.Brand;
 
 public abstract class Vehicle {
 		protected int id;
@@ -7,7 +9,5 @@ public abstract class Vehicle {
 		public Vehicle(int id, Brand brand) {
 			this.id = id;
 			this.brand = brand;
-		}
-		
-		
+		}	
 }
