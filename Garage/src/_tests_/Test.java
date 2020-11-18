@@ -26,7 +26,7 @@ public class Test {
 		Master le = new Master("Leila");
 		System.out.println(le);
 		
-		Manager li = new Manager("Liuba",
+		Manager li = new Manager("Luba",
 				                Education.BSC,
 				                Rank.Director,
 				                Specialization.Engines,
