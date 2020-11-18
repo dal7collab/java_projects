@@ -20,10 +20,5 @@ public class Address {
 	@Override
 	public String toString() {
 		return String.format("Address [city=%s, street=%s]", city, street);
-	}
-	
-	
-	
-	
-	
+	}	
 }

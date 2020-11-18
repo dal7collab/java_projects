@@ -7,5 +7,6 @@ public enum Languages {
 	Russian,
 	Iddish,
 	Franch,
-	Spain
+	Spain,
+	Other
 }

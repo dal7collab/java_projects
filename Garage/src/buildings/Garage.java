@@ -9,11 +9,16 @@ public class Garage {
 	private Address  address;
 	private Worker[] team;
 
+	public Garage(String name, Address address) {
+		this.name    = name;
+		this.address = address; // - By reference
+	}
+	
 	public Garage() {
 		this.name = "Alufot2000";
 		this.address = new Address();
 	}
-	
+		
 	public void setTeam(Worker[] team) {
 		this.team = team;
 	}

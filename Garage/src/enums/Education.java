@@ -4,5 +4,6 @@ public enum Education {
 	SCHOOL,
 	BTECH,
 	BA,
-	BSC
+	BSC,
+	Other
 }
