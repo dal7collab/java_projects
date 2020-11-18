@@ -13,7 +13,7 @@ public class Test {
 	public static void main(String[] args) {
 		Garage g = new Garage();
 		System.out.println(g);
-		
+
 		System.out.println("------------------------------------------------------");
 		
 		
