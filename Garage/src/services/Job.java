@@ -1,38 +1,45 @@
 package services;
 
 import enums.Status;
+import enums.Work;
 import people.Manager;
 import people.Master;
-import vehicles.Car;
-import vehicles.Truck;
 import vehicles.Vehicle;
 
 public class Job {
 	private int     id;
-	private Manager manager;
-	private Vehicle vehicle;
-	private Master  master;
 	private Status  status;
+	private Work    work;
+	private Vehicle vehicle;
+	private Manager manager;
+	private Master  master;
 	
 	public Job(int id, 
-			   Manager manager,
+			   Status status,
+			   Work work,
 			   Vehicle vehicle,
-			   Master master,
-			   Status status) {
+			   Manager manager,
+			   Master master) {
 		this.id = id;
 		this.manager = manager;
 		this.vehicle = vehicle;
-		this.master = master;
-		this.status = status;
+		this.master  = master;
+		this.status  = status;
+		this.work    = work;
 	}
 	
 	public Job() {
-		this(0, null, null, null, Status.Undefined);
+		this(0, Status.Undefined, Work.Other, null, null, null);
+	}
+	
+	public Job(int id) {
+		this(id, Status.Created, Work.Other, null, null, null);
 	}
 	
 	public Job(int id, Manager manager) {
-		this(0, manager, null, null, Status.Created);
+		this(id, Status.Created, Work.Other, null, manager, null);
 	}
+	
 	
 	public int getJobId() {
 		return id;
@@ -44,10 +51,9 @@ public class Job {
 
 	@Override
 	public String toString() {
-		return String.format("Job [id=%s, manager=%s, vehicle=%s, master=%s, status=%s]", id, manager, vehicle, master,
-				status);
+		return String.format("Job [id=%s, status=%s, work=%s, vehicle=%s, manager=%s, master=%s]", id, status, work,
+				vehicle, manager, master);
 	}
-	
-	
+
 	
 }

@@ -1,7 +1,6 @@
 package people;
 
 import java.util.Arrays;
-
 import enums.Education;
 import enums.Rank;
 import enums.Specialization;
@@ -29,7 +28,7 @@ public class Manager extends Worker {
 	public void setMasters(Worker[] masters) {
 		this.masters = masters;
 	}
-
+	
 	@Override
 	public String toString() {
 		return String.format("Manager [workers=%s,"
