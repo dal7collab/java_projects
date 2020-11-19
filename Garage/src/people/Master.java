@@ -16,7 +16,7 @@ public class Master extends Worker {
 			Level electricalSkils,
 			Level programmingSkils) {
 		super(name, edct, rank, spec);
-		this.electricalSkils = electricalSkils;
+		this.electricalSkils  = electricalSkils;
 		this.programmingSkils = programmingSkils;
 	}
 	

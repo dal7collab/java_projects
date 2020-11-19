@@ -1,4 +1,4 @@
-package _tests_;
+package _scenarios_;
 
 import buildings.Garage;
 import enums.Education;
@@ -8,7 +8,7 @@ import people.Manager;
 import people.Master;
 import people.Worker;
 
-public class Test {
+public class TestGarage {
 
 	public static void main(String[] args) {
 		Garage g = new Garage();
