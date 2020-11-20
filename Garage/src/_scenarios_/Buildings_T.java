@@ -16,9 +16,9 @@ public class Buildings_T {
 		Garage g = new Garage("Alufot20", a);
 		System.out.println(g);
 		
-		Worker w1 = new Master("Klara", Education.BTECH, Rank.Senior, Specialization.Painting, Level.Moderate, Level.High);
-		Worker w2 = new Master("Viola", Education.BSC,   Rank.Senior, Specialization.Engines,  Level.High,     Level.Moderate);
-		Worker w3 = new Master("Lea",   Education.BSC,   Rank.Junior, Specialization.Engines,  Level.Moderate, Level.Moderate);
+		Worker w1 = new Master("Emuna", Education.BTECH, Rank.Senior, Specialization.Painting, Level.Moderate, Level.High);
+		Worker w2 = new Master("Tikva", Education.BSC,   Rank.Senior, Specialization.Engines,  Level.High,     Level.Moderate);
+		Worker w3 = new Master("Ahava",   Education.BSC,   Rank.Junior, Specialization.Engines,  Level.Moderate, Level.Moderate);
 		
 		Worker[] t = {w1, w2, w3};
 		g.setTeam(t);	
